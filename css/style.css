@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+}
+ul,li{
+  list-style: none;
+}
+a,a:hover{
+  text-decoration: none;
+}
+.all-btn{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: #ff5f60;
+  padding: 8px 30px;
+  border-radius: 30px;
+  border: 1px solid #ff5f60;
+  text-decoration: none!important;
+  text-transform: capitalize;
+  transition: 1s;
+}
+.all-btn:hover{
+  background: #fff;
+  border: 1px solid #ff5f60;
+  color: #ff5f60;
+}
+
+/* ===== Header Part Started ===== */
+.header-section{
+  width: 100%;
+  padding: 20px 0px 80px;
+  background: url(../img/header-bg.png) top center no-repeat;
+  background-size: cover;
+}
+.menu-section .bg-light{
+  background: transparent!important;
+  overflow: hidden;
+}
+.menu-section .navbar-light .navbar-nav .nav-link{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0px 10px;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+  color: #ff5f60;
+}
+.menu-section .navbar-light .navbar-nav .btn-info{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: #ff5f60;
+  padding: 5px 30px;
+  border-radius: 30px;
+  border: 1px solid #ff5f60;
+  transition: 1s;
+}
+.menu-section .navbar-light .navbar-nav .btn-info:hover{
+  color: #ff5f60;
+  border: 1px solid #ff5f60;
+  background: #fff;
+
+}
+.banner-section{
+  width: 100%;
+  padding: 80px 0px 0px;
+}
+.banner-inner{
+  padding: 80px 0px;
+  margin-top: 5%;
+}
+.banner-inner h1{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.banner-inner p{
+  color: #fff;
+  margin-bottom: 50px;
+}
+.banner-section img{
+  width: 100%;
+}
+/* ===== Ended ===== */
+
+/* ===== Slider Part Started ===== */
+.slider-section{
+  width: 100%;
+  padding: 80px 0px;
+  position: relative;
+}
+.form-inner{
+  position: absolute;
+  text-align: center;
+  padding: 30px 15px 40px;
+  bottom: 70%;
+  background: #ff5f60;
+  border-radius: 10px;
+  box-shadow: 0px -7px 1px #1f3148;
+}
+.form-inner h2{
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0px 10px 10px;
+}
+.form-inner .divider{
+  margin: 0px auto 15px;
+  border: 1px solid #fff;
+  width: 30%;
+}
+.form-inner p{
+  color: #ff9b9c;
+  font-size: 16px;
+}
+.form-inner .control{
+  width: 70%;
+  font-size: 14px;
+  padding: 8px 5px 8px 15px;
+  border: none;
+  border-radius: 30px;
+}
+.form-inner .fa{
+  position: absolute;
+  top: 126px;
+  right: 17.5%;
+  color: #fff;
+  padding: 11px 15px;
+  background: #1f3148;
+  border-right: 1px solid #1f3148;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.slider-inner{
+  margin-top: -30px;
+}
+.slider-inner .owl-carousel{
+  text-align: center;
+}
+.slider-inner .owl-carousel h4{
+  font-size: 16px;
+  font-style: italic;
+}
+.slider-inner .owl-carousel p{
+  font-style: 14px;
+  font-weight: 700;
+  color: #fb8122;
+}
+.slider-inner .owl-theme .owl-dots .owl-dot.active span, .slider-inner .owl-theme .owl-dots .owl-dot:hover span{
+  background: #fb8122;
+}
+/* ===== Ended ===== */
+
+/* ===== Feature Part Started ===== */
+.feature-section{
+  width: 100%;
+  padding: 80px 0px 150px;
+}
+.feature-section .inner-1 img{
+  width: 110%;
+  margin-right: 60px;
+}
+.feature-section .inner-2 img{
+  width: 110%;
+}
+.feature-section .text h2{
+  font-style: 30px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 35px;
+}
+.feature-section .text p{
+  font-style: 14px;
+  font-weight: 400;
+  color: #adadad;
+  margin-bottom: 60px;
+}
+/* ===== Ended ===== */
+
+/* ===== Icon Part Started ===== */
+.icon-section{
+  width: 100%;
+  padding: 20px 0px 20px;
+}
+.icon-section .icon-inner{
+  text-align: center;
+}
+.icon-inner h4{
+  font-style: 20px;
+  font-weight: 600;
+  color: #000;
+  margin: 20px 0px 10px;
+}
+.icon-inner p{
+  font-style: 14px;
+  color: #a9a9a9;
+}
+/* ===== Ended ===== */
+
+/* ===== Footer Part Started ===== */
+.footer-section{
+  width: 100%;
+  padding: 0px 0px 15px;
+}
+.inner{
+  margin-bottom: 20px;
+  font-style: 16px;
+  font-weight: 600;
+  color: #c9c9c9;
+}
+.inner ul{
+  text-align: right;
+}
+.inner li{
+  display: inline-block;
+  margin: 0px 10px;
+}
+.inner li a{
+  text-decoration: none;
+  color: #c9c9c9;
+}
+.inner li a:hover{
+  color: #ff5f60;
+}
+/* ===== Ended ===== */
